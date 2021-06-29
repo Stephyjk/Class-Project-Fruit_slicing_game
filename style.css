@@ -1,0 +1,94 @@
+html{
+    height: 100%;
+    background: radial-gradient(circle, white, yellow);
+}
+
+#container{
+    height: 550px;
+    width: 850px;
+    background-color: cornsilk;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 0px 0px burlywood;
+    position: relative;
+}
+
+#score{
+    background-color: greenyellow;
+    color: black;
+    padding: 11px;
+    position: absolute;
+    left: 800px;
+    box-shadow: 0px 4px 0px black;
+}
+
+#game_screen{
+    width: 800px;
+    height: 350px;
+    margin: 50px auto 10px auto;
+    background-color: white;
+    box-shadow: 0px 4px lightgrey;
+    font-size: 100px;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+#catchfruits{
+    width: 400px;
+    height: 50px;
+    background-color: rgb(87, 138, 248);
+    margin: 10px auto;
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 0px 4px grey;
+}
+
+#startreset{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(87, 138, 248);
+    margin: 10px auto;
+    text-align: center;
+    line-height: 45px;
+    box-shadow: grey;
+}
+
+#gameover{
+    height: 200px;
+    width: 500px;
+    background: orange;
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 145px;
+    left: 185px;
+    z-index: 2;
+    display: none;
+}
+
+#trialsleft{
+    width: 80px;
+    padding: 10px;
+    position: absolute;
+    background-color:salmon;
+    border-radius: 3px;
+    box-shadow: 0px 4px pink;
+    display: none;
+}
+
+.life{
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
+}
+
+.fruit{
+    display: none;
+    position: absolute;
+}

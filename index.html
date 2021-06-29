@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits Slice game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="score">Score: <span id="scorevalue"></span></div>
+        <div id="trialsleft"></div>
+        <div id="game_screen">
+            <img id="fruit1" class="fruit">
+        </div>
+        <div id="gameover"><br> Game Over! <br> <br> Your score is 0</div>
+        <div id="catchfruits">Catch Fruits</div>
+        <div id="startreset">Start Game</div>
+
+    </div>
+    <audio id="slicesound">
+        <source src="audio/slice_fruit.mp3">
+        <source src="audio/slice_fruit.ogg">
+    </audio>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" ></script>
+    <script src="main.js"></script>
+</body>
+</html>
